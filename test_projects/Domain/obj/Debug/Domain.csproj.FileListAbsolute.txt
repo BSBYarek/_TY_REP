@@ -1,0 +1,5 @@
+D:\_TY_LOC\UsingEF\Domain\bin\Debug\Domain.dll
+D:\_TY_LOC\UsingEF\Domain\bin\Debug\Domain.pdb
+D:\_TY_LOC\UsingEF\Domain\obj\Debug\ResolveAssemblyReference.cache
+D:\_TY_LOC\UsingEF\Domain\obj\Debug\Domain.dll
+D:\_TY_LOC\UsingEF\Domain\obj\Debug\Domain.pdb
