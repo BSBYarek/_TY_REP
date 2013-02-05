@@ -1,0 +1,32 @@
+﻿@using Domain.Entities
+@using UsingEF.Helpers
+@model List<Book>
+@{
+    Layout = null;
+}
+
+<div id="secondTable">
+<h1> Table2:</h1>
+    <table>
+        <tr>
+            <th></th>
+            <th>Title</th>
+            <th>Author</th>
+        </tr>
+            
+        @foreach (Book book in Model)
+        {
+            <tr>
+                <td></td>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+            </tr>
+        }
+            
+    </table>
+    <p>
+        @Ajax.PagingNavigator((int)Html.ViewData["pageNum"],
+                              (int)Html.ViewData["itemsCount"],(int)Html.ViewData["pageSize"])
+    </p>
+</div>
+

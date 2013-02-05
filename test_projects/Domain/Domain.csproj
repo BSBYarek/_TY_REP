@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
@@ -43,11 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EFDbContext.cs" />
-    <Compile Include="Entities\Book.cs" />
-    <Compile Include="Entities\Flower.cs" />
+    <Compile Include="BooksFlowers\Supplier.cs" />
+    <Compile Include="DataContexts\BooksContext.cs" />
+    <Compile Include="BooksFlowers\Book.cs" />
+    <Compile Include="BooksFlowers\Flower.cs" />
+    <Compile Include="DataContexts\MyMoneyContext.cs" />
+    <Compile Include="MyMoney\Balance.cs" />
+    <Compile Include="MyMoney\JournalPayment.cs" />
+    <Compile Include="MyMoney\OperationType.cs" />
+    <Compile Include="MyMoney\Prioritet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
