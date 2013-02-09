@@ -1,0 +1,13 @@
+﻿@using Domain.MyMoney;
+@model List<JournalPayment>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>List JournalPayment for </h2>@DateTime.Now.ToString()
+<div>
+    @foreach (var jp in Model)
+    {
+        <i>Amount:</i>@jp.Amount<i>, Currency:</i>@jp.Currency<i>, OperationTypeId</i>@jp.OperationTypeId<i>, Description</i>@jp.Description 
+    }
+</div>

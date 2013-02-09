@@ -9,8 +9,8 @@ D:\_TY_LOC\test_projects\UsingEF\bin\UsingEF.dll
 D:\_TY_LOC\test_projects\UsingEF\bin\UsingEF.pdb
 D:\_TY_LOC\test_projects\UsingEF\bin\Domain.dll
 D:\_TY_LOC\test_projects\UsingEF\bin\Domain.pdb
-D:\_TY_LOC\test_projects\UsingEF\obj\Debug\ResolveAssemblyReference.cache
 D:\_TY_LOC\test_projects\UsingEF\obj\Debug\UsingEF.dll
 D:\_TY_LOC\test_projects\UsingEF\obj\Debug\UsingEF.pdb
 D:\_TY_LOC\test_projects\UsingEF\bin\Services.dll
 D:\_TY_LOC\test_projects\UsingEF\bin\Services.pdb
+D:\_TY_LOC\test_projects\UsingEF\obj\Debug\UsingEF.csprojResolveAssemblyReference.cache
